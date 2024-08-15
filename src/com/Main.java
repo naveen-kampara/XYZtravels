@@ -38,7 +38,7 @@ public class Main {
     }
 
     private static boolean displayCompanyLogo() {
-        try (BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\User\\Desktop\\XYZ TRAVELS\\src\\com\\company_logo.txt"))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\User\\Desktop\\XYZtravels\\src\\com\\company_logo.txt"))) {
             String line;
             while ((line = reader.readLine()) != null) {
                 System.out.println(line);
