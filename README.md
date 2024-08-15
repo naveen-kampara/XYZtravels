@@ -20,6 +20,7 @@ This project is a dynamic, menu-driven console application developed for a trave
  ```bash
  #To clone this repository
  git clone https://github.com/naveen-kampara/XYZtravels/tree/main.git
+
 # Navigate to the project directory
 cd XYZtravels
 
