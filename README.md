@@ -1,4 +1,5 @@
 # **XYZtravels**
+A application for a new travel and logistics company to automate booking operations using core Java concepts and the Collection API, with no database involved.
 # **Overview**
 This project is a dynamic, menu-driven console application developed for a travel and logistics company. It automates the booking operations and is built using core Java concepts and the Java Collection API (List and Map). No database is involved in this project, ensuring that all operations are performed in-memory.
 
