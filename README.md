@@ -3,7 +3,7 @@
 This project is a dynamic, menu-driven console application developed for a travel and logistics company. It automates the booking operations and is built using core Java concepts and the Java Collection API (List and Map). No database is involved in this project, ensuring that all operations are performed in-memory.
 
 # **Features**
-+ **Admin User Registration:** Allows new admin users to register by providing personal details such as first name, last name, mobile number, gender, email ID, and password. Backend fields like failedCount and accountStatus are also managed.
++ **Admin User Registration:** Allows new users to register by providing personal details such as first name, last name, mobile number, gender, email ID, and password. Backend fields like failedCount and accountStatus are also managed.
 + **Account Locking:** Automatically locks an account after five invalid login attempts to enhance security.
 + **Journey Planning:** Enables users to plan their journeys by selecting the source, destination, travel date, and the number of passengers. The application validates the details, calculates fares and confirms the booking.
 + **Rescheduling:** Offers users the ability to edit their travel date after booking, providing flexibility.
