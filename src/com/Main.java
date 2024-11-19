@@ -27,7 +27,6 @@ public class Main {
     private static JourneyService journeyService = new JourneyService(routes, orders);
 
     public static void main(String[] args) {
-        // Pre-populate the services with some data if necessary
     	initializeRoutes();
 
         if (displayCompanyLogo()) {
@@ -52,7 +51,6 @@ public class Main {
     private static void initializeRoutes() {
         routes.add(new Route(1, "Nellore", "Hyderabad", LocalDate.parse("2024-08-15", DateTimeFormatter.ISO_LOCAL_DATE), 1000, 40));
         routes.add(new Route(2, "Hyderabad", "Goa", LocalDate.parse("2024-08-18", DateTimeFormatter.ISO_LOCAL_DATE), 1500, 40));
-        // ... add more routes as needed
     }
 
 
@@ -95,7 +93,7 @@ public class Main {
     }
         
 
-    scanner.close();  // Close the scanner when we're done with it
+    scanner.close();  // Closeing the scanner we're done with it
 }
 
 }
